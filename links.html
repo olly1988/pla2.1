@@ -5,25 +5,83 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Links</title>
+    <link rel="shortcut icon" href="/img/favicon (1).ico" type="image/x-icon">
 </head>
 <body>
+    <!-- creation of header with the menu to move between pages-->
     <header>
-        <div class="logo"></div>
+        <div class="logo">
+            <a href="index.html"><img src="/img/html5_icon.png" 
+                width="60px" 
+                height="60px" alt="">
+            </a>
+        </div>
         <nav>
             <ul>
-                <li><a href="">Text</a></li>
-                <li><a href="">Images</a></li>
-                <li><a href="">Links</a></li>
-                <li><a href="">List</a></li>
-                <li><a href="">Tables</a></li>
-                <li><a href="">Forms</a></li>
-                <li><a href="">Section</a></li>
-                <li><a href="">Media</a></li>
-                <li><a href="">Meta</a></li>
+                <li><a href="text.html">Text</a></li>
+                <li><a href="images.html">Images</a></li>
+                <li><a href="links.html">Links</a></li>
+                <li><a href="list.html">List</a></li>
+                <li><a href="tables.html">Tables</a></li>
+                <li><a href="forms.html">Forms</a></li>
+                <li><a href="section.html">Section</a></li>
+                <li><a href="media.html">Media</a></li>
+                <li><a href="meta.html">Meta</a></li>
             </ul>
         </nav>
     </header>
+<!--Lista de elementos y actributos en HTML-->
+    <div class="main-title">
+        <h1>HTML Links</h1>
+    </div>
+<!--First paraph-->  
+    <div class="first-paragraph">
+        <h2>Tag a</h2>
+        <p>Utilice el elemento &lt;<b>a</b>&gt; 
+            para definir un enlace</p>
 
+        <p>Utilice el atributo <b>href</b> para 
+            definir la dirección del enlace</p>
+
+        <p>&lt;a href=” https://translate.google.it/ ”&gt;</a> 
+            google translator &lt;/a&gt;</p>
+        <p><a href="https://translate.google.it/?hl=it">Google translator</a></p>
+    </div>
+    <hr>
+<!--Second paragraph-->  
+    <div class="second-paragraph">
+        <h2>Img Link</h2>
+        <p>Use el elemento &lt;<b>img</b> &gt; (dentro de &lt;<b>a</b>&gt;)
+            para usar una imagen como enlace</p>
+        <p><a href="index.html">
+            <img src="/img/img_1.jpg" 
+            alt="vas a la Home" 
+            width="300" 
+            height="200">
+            </a></p>
+        <hr>
+<!--Third paragraph-->  
+        <div class="tercero-paragraph">
+            <h2>Mailto:</h2>
+            <p>Utilice <b> mailto: </b> dentro del atributo <b> href </b> para crear 
+            un enlace que  abra el programa de correo 
+            electrónico del usuario.</p>
+            <a href="mailto:oliver.lbr@gmail.com">Send email to Oliver</a> 
+        </div>
+            <hr>
+<!--fourth paragraph-->  
+        <p>Con el atributo de <b>target</b> especificamos dónde abrir el documento 
+            vinculado y puede tener uno de los siguientes valores: <br>
+            <b> _self:</b> predeterminado. Abre el documento en la misma ventana / 
+            pestaña en la que se hizo clic <br />
+            <b>_blank: </b> abre el documento en una nueva ventana o pestaña <br />
+            <b>_parent: </b>  abre el documento en el marco principal <br />
+            <b>_top: </b>b abre el documento en todo el cuerpo de la ventana</p>
+        <p><a href="index.html" target="_blank">go Home</a></p>
+
+</div>
+    <p></p>
+    <p></p>
 
 </body>
     

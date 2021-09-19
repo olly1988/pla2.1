@@ -5,27 +5,112 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Images</title>
+    <link rel="shortcut icon" href="/img/favicon (1).ico" type="image/x-icon">
 </head>
 <body>
+    <!-- creation of header with the menu to move between pages-->
     <header>
-        <div class="logo"></div>
+        <div class="logo">
+            <a href="index.html"><img src="/img/html5_icon.png" 
+                width="60px" 
+                height="60px" alt="">
+            </a>
+        </div>
         <nav>
             <ul>
-                <li><a href="">Text</a></li>
-                <li><a href="">Images</a></li>
-                <li><a href="">Links</a></li>
-                <li><a href="">List</a></li>
-                <li><a href="">Tables</a></li>
-                <li><a href="">Forms</a></li>
-                <li><a href="">Section</a></li>
-                <li><a href="">Media</a></li>
-                <li><a href="">Meta</a></li>
+                <li><a href="text.html">Text</a></li>
+                <li><a href="images.html">Images</a></li>
+                <li><a href="links.html">Links</a></li>
+                <li><a href="list.html">List</a></li>
+                <li><a href="tables.html">Tables</a></li>
+                <li><a href="forms.html">Forms</a></li>
+                <li><a href="section.html">Section</a></li>
+                <li><a href="media.html">Media</a></li>
+                <li><a href="meta.html">Meta</a></li>
             </ul>
         </nav>
     </header>
-
-
+        <hr />
+    <!--ejemplo de imagen con enlace absoluto del sitio lorem picsum -->
+    <div class="img_top">
+        <img src="https://picsum.photos/900/700" alt="random pic">
+        <p>esta es una imagen tomada del 
+            sitio web de lorem picsum</p></div>
+        <hr />
+    <!--ejemplo de imagen con enlace relativo alineado a la isquierda desde la carpeta img  -->    
+    <p>
+        <img src="/img/img_1.jpg" alt="vietnam" 
+        width="300" height="200" />
+        Para agregar una imagen a la página, debe usar 
+        la etiqueta &lt;img&gt;, que es un elemento vacío 
+        (sin etiqueta de cierre). Debe tener el atributo 
+        src para indicar dónde encontrar la imagen.
+        </p>
+        <br />
+    <hr />
+    <!--ejemplo de imagen con enlace relativo alineado desde el fondo  -->   
+    <p>
+        <img src="/img/img_2.jpg" 
+        alt="vietnam" 
+        width="300" 
+        height="200"
+        align="bottom" />
+        Sono consigliati anche gli attributi alt que da 
+        una descripción de la imagen si la imagen está rota,
+        y el atributo de title para dar más información 
+        al pasar el cursor sobre la imagen
+    </p>   
+    <hr /> 
+    <br />
+    <!--ejemplo de imagen con enlace relativo en el medio de un parrafo  -->  
+    <p>
+        dependiendo de dónde lo inserte en un párrafo,
+        se mostrará de manera diferente    
+        en este caso lo 
+        <img src="img/img_3.jpg" 
+        alt="Auckland" 
+        width="300" 
+        height="200" />
+        anidamos dentro de un párrafo en medio de un texto
+    </p> 
+    <hr />
+    <br />
+    <!--ejemplo de imagen con enlace relativo en el medio de un parrafo  -->  
+    <p>
+        <img src="img/img_5.jpg" 
+        alt="" 
+        width="300" 
+        height="200"
+        align="left" />
+        
+        también tiene un atributo de alineación que se usaba 
+        comúnmente para indicar cómo deberían fluctuar otros 
+        elementos en la página con respecto a la imagen. Esta
+        opción ha sido eliminada. Deben usarse los controles 
+        de alineación cssLos valores de alineación pueden ser 
+        right, left, bottm, top y middle. El texto  se alinea 
+        debajo de la foto si el valor asinado es bottom y así 
+        sucesivamente con los otros valores
+    </p> 
+    
+    <br /> <br /> <br /> <br /> <br /> <br /> <hr />
+    <!--ejemplo de imagen con enlace absoluto con etiqueta <figure> y <figurecaption>  --> 
+    <figure>
+        <img src="https://images.unsplash.com/photo-1631731615579-9390147536c8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" 
+        alt="random pic"
+        width="400"
+        height="500" /> <br />
+            <figurecaption>html5 ha introducido un nuevo elemento
+            &lt;figure&gt; que se utiliza <br> para contener una o más
+            imágenes con la descripción respectiva  <br>  donde esta 
+            última será implementada con el elemento &lt;figcaption&gt;.
+            </figurecaption>
+    </figure>
 </body>
     
 
 </html>
+
+        
+
+        
