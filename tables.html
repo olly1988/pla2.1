@@ -1,38 +1,239 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Table</title>
-    <link rel="shortcut icon" href="/img/favicon (1).ico" type="image/x-icon">
-</head>
-<body>
-    <!-- creation of header with the menu to move between pages-->
-    <header>
+    <link rel="shortcut icon" href="/img/favicon (1).ico" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- ------------------creation of header with the menu to move between pages-------------->
+      <header>
         <div class="logo">
-            <a href="index.html"><img src="/img/html5_icon.png" 
-                width="60px" 
-                height="60px" alt="">
-            </a>
+          <a href="index.html"
+            ><img src="/img/html5_icon.png" 
+            width="60px" 
+            height="60px" 
+            alt="icon" />
+          </a>
         </div>
-        <nav>
-            <ul>
-                <li><a href="text.html">Text</a></li>
-                <li><a href="images.html">Images</a></li>
-                <li><a href="links.html">Links</a></li>
-                <li><a href="list.html">List</a></li>
-                <li><a href="tables.html">Tables</a></li>
-                <li><a href="forms.html">Forms</a></li>
-                <li><a href="section.html">Section</a></li>
-                <li><a href="media.html">Media</a></li>
-                <li><a href="meta.html">Meta</a></li>
-            </ul>
+        <nav role="navigation">
+          <ul>
+            <li><a href="text.html">Text</a></li>
+            <li><a href="images.html">Images</a></li>
+            <li><a href="links.html">Links</a></li>
+            <li><a href="list.html">List</a></li>
+            <li><a href="tables.html">Tables</a></li>
+            <li><a href="forms.html">Forms</a></li>
+            <li><a href="section.html">Section</a></li>
+            <li><a href="media.html">Media</a></li>
+            <li><a href="meta.html">Meta</a></li>
+          </ul>
         </nav>
-    </header>
+      </header>
+      <div class="banner">
+        <img src="/img/pixbay.jpeg" alt="post it" />
+      </div>
+      <!---------------------------TITOLO E SUBTITLE----------------------->
+      <div class="outer-div">
+        <div class="title">
+          <h1>Tablas</h1>
+        </div>
+        <div class="sub-title">
+          <h3>
+            Dentro de las tablas están los elementos y explicaciones de una
+            tabla
+          </h3>
+        </div>
+      </div>
 
+      <!-------------Table that has not width attribute on the table tag but has 100 in cellpadding--------------->
+      <div class="first-table">
+        <table cellpadding="10" cellspacing="1" border="1" bgcolor="ff9d84">
+          <thead>
+            <tr>
+              <th>&lt;th&gt;</th>
+              <th>&lt;th&gt;</th>
+              <th>&lt;th&gt;</th>
+              <th>&lt;th&gt;</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th colspan="5">
+                Tabla que no tiene el atributo width en la etiqueta de
+                &lt;table&gt; pero tiene cellpadding="10" cellspacing="1"
+                border="1" bgcolor="ff9d84"
+              </th>
+              <td>td</td>
+              <td>td</td>
+              <td>la celda a mi derecha es un &lt;td&gt; vacío</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>&lt;th&gt;</th>
+              <td rowspan="2">&lt;td rowspan="2"&gt;</td>
+              <td>&lt;td&gt;</td>
+              <td>&lt;td&gt;</td>
+            </tr>
+            <tr>
+              <th>&lt;th&gt;</th>
+              <td>&lt;td&gt;</td>
+              <td>&lt;td&gt;</td>
+              <td>&lt;td&gt;</td>
+            </tr>
+            <tr>
+              <th>&lt;th&gt;</th>
+              <td>normal &lt;td&gt;</td>
+              <td>&lt;td&gt;</td>
+              <td>otro &lt;td&gt;</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th colspan="2">&lt;th&gt; colspan="2"</th>
+              <td>&lt;td&gt;</td>
+              <td>la celda a mi derecha es un &lt;td&gt; vacío</td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
 
-</body>
-    
+      <br />
+      <!------------------Table that has width attribute on the table tag as  but has 100 in cellpadding- ------------->
+      <div class="second-table">
+        <table
+          width="600"
+          cellpadding="10"
+          cellspacing="1"
+          border="1"
+          bgcolor="ff9d84"
+        >
+          <thead>
+            <tr>
+              <th>&lt;th&gt;</th>
+              <th>&lt;th&gt;</th>
+              <th>&lt;th&gt;</th>
+              <th>&lt;th&gt;</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th colspan="5">
+                Tabla que tiene el atributo de width="600" en la etiqueta del
+                tag &lt;table&gt; como peró tiene cellspacing="10" en el relleno
+                de celdas
+              </th>
+              <td>td</td>
+              <td>td</td>
+              <td>la celda a mi derecha es un &lt;td&gt; vacío</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>&lt;th&gt;</th>
+              <td rowspan="2">&lt;td rowspan="2"&gt;</td>
+              <td>&lt;td&gt;</td>
+              <td>&lt;td&gt;</td>
+            </tr>
+            <tr>
+              <th>&lt;th&gt;</th>
+              <td>&lt;td&gt;</td>
+              <td>&lt;td&gt;</td>
+              <td>&lt;td&gt;</td>
+            </tr>
+            <tr>
+              <th>&lt;th&gt;</th>
+              <td>normal &lt;td&gt;</td>
+              <td>&lt;td&gt;</td>
+              <td>otro &lt;td&gt;</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th colspan="2">&lt;th&gt; colspan="2"</th>
+              <td>&lt;td&gt;</td>
+              <td>la celda a mi derecha es un &lt;td&gt; vacío</td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <br />
 
+      <!------------------Table that has width="100" attribute on the table tag cellpadding="100" --------------->
+      <div class="third-table">
+        <table
+          width="100"
+          cellpadding="10"
+          cellspacing="1"
+          border="1"
+          bgcolor="ff9d84"
+        >
+          <thead>
+            <tr>
+              <th>&lt;th&gt;</th>
+              <th>&lt;th&gt;</th>
+              <th>&lt;th&gt;</th>
+              <th>&lt;th&gt;</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th colspan="5">
+                Tabla que tiene el atributo de width="100" en la etiqueta del
+                tag &lt;table&gt; como peró tiene cellspacing="100" en el
+                relleno de celdas
+              </th>
+              <td>td</td>
+              <td>td</td>
+              <td>la celda a mi derecha es un &lt;td&gt; vacío</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>&lt;th&gt;</th>
+              <td rowspan="2">&lt;td rowspan="2"&gt;</td>
+              <td>&lt;td&gt;</td>
+              <td>&lt;td&gt;</td>
+            </tr>
+            <tr>
+              <th>&lt;th&gt;</th>
+              <td>&lt;td&gt;</td>
+              <td>&lt;td&gt;</td>
+              <td>&lt;td&gt;</td>
+            </tr>
+            <tr>
+              <th>&lt;th&gt;</th>
+              <td>normal &lt;td&gt;</td>
+              <td>&lt;td&gt;</td>
+              <td>otro &lt;td&gt;</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th colspan="2">&lt;th&gt; colspan="2"</th>
+              <td>&lt;td&gt;</td>
+              <td>la celda a mi derecha es un &lt;td&gt; vacío</td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!---------------------FOOTER--------------------------->
+      <footer>&copy;Oliver Albergo
+        <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2993.
+        531785216655!2d2.1760915658077833!3d41.38425627926444!2m3!1f0!2f0
+        !3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a2f9395aa707%3A0x35d
+        4903128cf0fb7!2sJaume%20I!5e0!3m2!1sit!2ses!4v1632228844204!5m2
+        !1sit!2ses"
+        width="200"
+        height="100"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy">
+        </iframe>
+      </footer>
+    </div>
+    <!--------------------- Wrapper--------------------------->
+  </body>
 </html>

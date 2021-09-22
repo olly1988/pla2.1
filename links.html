@@ -1,88 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Links</title>
-    <link rel="shortcut icon" href="/img/favicon (1).ico" type="image/x-icon">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Links</title>
+        <link rel="shortcut icon" href="/img/favicon (1).ico" type="image/x-icon">
+    </head>
 <body>
+    <div class="wrapper">
     <!-- creation of header with the menu to move between pages-->
-    <header>
-        <div class="logo">
-            <a href="index.html"><img src="/img/html5_icon.png" 
-                width="60px" 
-                height="60px" alt="">
-            </a>
+        <header>
+            <div class="logo">
+                <a href="index.html"><img src="/img/html5_icon.png" 
+                    width="60px" 
+                    height="60px" 
+                    alt="icon">
+                </a>
+            </div>
+            <nav role="navigation">
+                <ul>
+                    <li><a href="text.html">Text</a></li>
+                    <li><a href="images.html">Images</a></li>
+                    <li><a href="links.html">Links</a></li>
+                    <li><a href="list.html">List</a></li>
+                    <li><a href="tables.html">Tables</a></li>
+                    <li><a href="forms.html">Forms</a></li>
+                    <li><a href="section.html">Section</a></li>
+                    <li><a href="media.html">Media</a></li>
+                    <li><a href="meta.html">Meta</a></li>
+                </ul>
+            </nav>
+        </header>
+    <!--Lista de elementos y actributos en HTML-->
+        <div class="main-title">
+            <h1>HTML Links</h1>
         </div>
-        <nav>
-            <ul>
-                <li><a href="text.html">Text</a></li>
-                <li><a href="images.html">Images</a></li>
-                <li><a href="links.html">Links</a></li>
-                <li><a href="list.html">List</a></li>
-                <li><a href="tables.html">Tables</a></li>
-                <li><a href="forms.html">Forms</a></li>
-                <li><a href="section.html">Section</a></li>
-                <li><a href="media.html">Media</a></li>
-                <li><a href="meta.html">Meta</a></li>
-            </ul>
-        </nav>
-    </header>
-<!--Lista de elementos y actributos en HTML-->
-    <div class="main-title">
-        <h1>HTML Links</h1>
-    </div>
-<!--First paraph-->  
-    <div class="first-paragraph">
-        <h2>Tag a</h2>
-        <p>Utilice el elemento &lt;<b>a</b>&gt; 
-            para definir un enlace</p>
+    <!--First paraph-->  
+        <div class="first-paragraph">
+            <h2>Tag a</h2>
+            <p>Utilice el elemento &lt;<b>a</b>&gt; 
+                para definir un enlace</p>
 
-        <p>Utilice el atributo <b>href</b> para 
-            definir la dirección del enlace</p>
+            <p>Utilice el atributo <b>href</b> para 
+                definir la dirección del enlace</p>
 
-        <p>&lt;a href=” https://translate.google.it/ ”&gt;</a> 
-            google translator &lt;/a&gt;</p>
-        <p><a href="https://translate.google.it/?hl=it">Google translator</a></p>
-    </div>
-    <hr>
-<!--Second paragraph-->  
-    <div class="second-paragraph">
-        <h2>Img Link</h2>
-        <p>Use el elemento &lt;<b>img</b> &gt; (dentro de &lt;<b>a</b>&gt;)
-            para usar una imagen como enlace</p>
-        <p><a href="index.html">
-            <img src="/img/img_1.jpg" 
-            alt="vas a la Home" 
-            width="300" 
-            height="200">
-            </a></p>
+            <p>&lt;a href=” https://translate.google.it/ ”&gt;</a> 
+                google translator &lt;/a&gt;</p>
+            <p><a href="https://translate.google.it/?hl=it">Google translator</a></p>
+        </div>
         <hr>
-<!--Third paragraph-->  
-        <div class="tercero-paragraph">
-            <h2>Mailto:</h2>
-            <p>Utilice <b> mailto: </b> dentro del atributo <b> href </b> para crear 
-            un enlace que  abra el programa de correo 
-            electrónico del usuario.</p>
-            <a href="mailto:oliver.lbr@gmail.com">Send email to Oliver</a> 
-        </div>
+    <!--Second paragraph-->  
+        <div class="second-paragraph">
+            <h2>Img Link</h2>
+            <p>Use el elemento &lt;<b>img</b> &gt; (dentro de &lt;<b>a</b>&gt;)
+                para usar una imagen como enlace</p>
+            <p><a href="index.html">
+                <img src="/img/img_1.jpg" 
+                alt="vas a la Home" 
+                width="300" 
+                height="200">
+                </a></p>
             <hr>
-<!--fourth paragraph-->  
-        <p>Con el atributo de <b>target</b> especificamos dónde abrir el documento 
-            vinculado y puede tener uno de los siguientes valores: <br>
-            <b> _self:</b> predeterminado. Abre el documento en la misma ventana / 
-            pestaña en la que se hizo clic <br />
-            <b>_blank: </b> abre el documento en una nueva ventana o pestaña <br />
-            <b>_parent: </b>  abre el documento en el marco principal <br />
-            <b>_top: </b>b abre el documento en todo el cuerpo de la ventana</p>
-        <p><a href="index.html" target="_blank">go Home</a></p>
+    <!--Third paragraph-->  
+            <div class="tercero-paragraph">
+                <h2>Mailto:</h2>
+                <p>Utilice <b> mailto: </b> dentro del atributo <b> href </b> para crear 
+                un enlace que  abra el programa de correo 
+                electrónico del usuario.</p>
+                <a href="mailto:oliver.lbr@gmail.com">Send email to Oliver</a> 
+            </div>
+                <hr>
+    <!--fourth paragraph-->  
+            <p>Con el atributo de <b>target</b> especificamos dónde abrir el documento 
+                vinculado y puede tener uno de los siguientes valores: <br>
+                <b> _self:</b> predeterminado. Abre el documento en la misma ventana / 
+                pestaña en la que se hizo clic <br />
+                <b>_blank: </b> abre el documento en una nueva ventana o pestaña <br />
+                <b>_parent: </b>  abre el documento en el marco principal <br />
+                <b>_top: </b>b abre el documento en todo el cuerpo de la ventana</p>
+            <p>
+                <a href="index.html" target="_blank">go Home
 
-</div>
-    <p></p>
-    <p></p>
-
+                </a>
+            </p>
+            <!---------------------FOOTER--------------------------->
+      <footer>&copy;Oliver Albergo
+        <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2993.531785216655!2d2.1760915658077833!3d41.38425627926444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a2f9395aa707%3A0x35d4903128cf0fb7!2sJaume%20I!5e0!3m2!1sit!2ses!4v1632228844204!5m2!1sit!2ses"
+        width="200"
+        height="100"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy">
+        </iframe>
+      </footer> 
+    </div><!--------------------- Wrapper--------------------------->
 </body>
     
 

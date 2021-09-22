@@ -1,38 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Meta</title>
-    <link rel="shortcut icon" href="/img/favicon (1).ico" type="image/x-icon">
-</head>
-<body>
-    <!-- creation of header with the menu to move between pages-->
-    <header>
+    <link rel="shortcut icon" href="/img/favicon (1).ico" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- creation of header with the menu to move between pages-->
+      <header>
         <div class="logo">
-            <a href="index.html"><img src="/img/html5_icon.png" 
+          <a href="index.html"
+            ><img src="/img/html5_icon.png" 
                 width="60px" 
-                height="60px" alt="">
-            </a>
+                height="60px" 
+                alt="icon" />
+          </a>
         </div>
-        <nav>
-            <ul>
-                <li><a href="text.html">Text</a></li>
-                <li><a href="images.html">Images</a></li>
-                <li><a href="links.html">Links</a></li>
-                <li><a href="list.html">List</a></li>
-                <li><a href="tables.html">Tables</a></li>
-                <li><a href="forms.html">Forms</a></li>
-                <li><a href="section.html">Section</a></li>
-                <li><a href="media.html">Media</a></li>
-                <li><a href="meta.html">Meta</a></li>
-            </ul>
+        <nav role="navigation">
+          <ul>
+            <li><a href="text.html">Text</a></li>
+            <li><a href="images.html">Images</a></li>
+            <li><a href="links.html">Links</a></li>
+            <li><a href="list.html">List</a></li>
+            <li><a href="tables.html">Tables</a></li>
+            <li><a href="forms.html">Forms</a></li>
+            <li><a href="section.html">Section</a></li>
+            <li><a href="media.html">Media</a></li>
+            <li><a href="meta.html">Meta</a></li>
+          </ul>
         </nav>
-    </header>
+      </header>
+<!-----------------------------TITLE------------------------------>      
+      <div class="title">
+      <h1>Metadatos</h1>
+      
+      </div>
+<!-----------------------------ARTICLE ABOUT TAG META------------------------------> 
+      <section>
+        <article>
+          <h1>Meta</h1>
+          <p>The tag <b>&lt;meta&gt;</b> is an empty element  
+            that have to be written <br> inside the <b>&lt;head&gt;</b>.
+            It will be not displayed  to the users. <br>
+            It's tell to  search engines about the page. <br>
+            The attributes that are most used with it are the NAME and CONTENT <br>
+            attributes and usually works togheter.
+            The value of the name can be anything <br> we want and the most commonly
+            used are <b>description</b> and <b>keywords</b> <br>
+            that are being used by search engines to understand what the page about. <br>
+            Instead the value of robots for the name is used to tell whether <br>
+            to add it to search engines. <br> </p>
+            <p> Another attribute that is used for the meta tag is http-equiv and as a
+            NAME <br> attribute it is used in conjunction with the content attribute.
+            With such <br> attribute usually it's common to use the value <b>author</b>
+            to define the Author. <br> the values <b>pragma</b> to prevent browser from caching the page
+          </p>
+          <p></p>
+        </article>
+      </section>
 
-
-</body>
-    
-
+      <!---------------------FOOTER--------------------------->
+      <footer>&copy;Oliver Albergo
+        <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2993
+        .531785216655!2d2.1760915658077833!3d41.38425627926444!2m3!1f0!
+        2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a2f9395aa707%3A
+        0x35d4903128cf0fb7!2sJaume%20I!5e0!3m2!1sit!2ses!4v1632228844204!5m2!1sit!2ses"
+        width="200"
+        height="100"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy">
+        </iframe>
+      </footer>
+    </div>
+    <!--------------------- Wrapper--------------------------->
+  </body>
 </html>

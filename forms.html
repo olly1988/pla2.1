@@ -1,35 +1,226 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Forms</title>
-    <link rel="shortcut icon" href="/img/favicon (1).ico" type="image/x-icon">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Forms</title>
+        <link rel="shortcut icon" href="/img/favicon (1).ico" type="image/x-icon">
+    </head>
 <body>
-    <!-- creation of header with the menu to move between pages-->
-    <header>
-        <div class="logo">
-            <a href="index.html"><img src="/img/html5_icon.png" width="60px" height="60px" alt=""></a>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="text.html">Text</a></li>
-                <li><a href="images.html">Images</a></li>
-                <li><a href="links.html">Links</a></li>
-                <li><a href="list.html">List</a></li>
-                <li><a href="tables.html">Tables</a></li>
-                <li><a href="forms.html">Forms</a></li>
-                <li><a href="section.html">Section</a></li>
-                <li><a href="media.html">Media</a></li>
-                <li><a href="meta.html">Meta</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div class="wrapper">
+    <!-----------creation of header with the menu to move between pages--------->
+            <header>
+                <div class="logo">
+                    <a href="index.html"><img 
+                        src="/img/html5_icon.png" 
+                        width="60px" height="60px" 
+                        alt="icon"></a>
+                </div>
+                <nav role="navigation">
+                    <ul>
+                        <li><a href="text.html">Text</a></li>
+                        <li><a href="images.html">Images</a></li>
+                        <li><a href="links.html">Links</a></li>
+                        <li><a href="list.html">List</a></li>
+                        <li><a href="tables.html">Tables</a></li>
+                        <li><a href="forms.html">Forms</a></li>
+                        <li><a href="section.html">Section</a></li>
+                        <li><a href="media.html">Media</a></li>
+                        <li><a href="meta.html">Meta</a></li>
+                    </ul>
+                </nav>
+            </header>
+<!---------Main banner ---------->
+            <div>
+                <img src="/img/pexels-cytonn-photography-banner.png
+                "alt="banner" 
+                title="Photo by cytonn. pic from pixbay"
+                height="600">
+            
+            </div>
 
+<!-------------Title page------------->
+            <h1>Form</h1>
 
-</body>
+<!---------first example of form structure ---------->
+
+            <form action="mailto:oliverl.br@gmail.com" 
+            method="GET"
+            id="first form">
+
+<!-------------------------NAME--------------------->
+                <div></div>
+                    <p class="first-heading"> your name :
+                        <input type="text" 
+                        name="name" 
+                        id="name" 
+                        maxlength="30" 
+                        placeholder="max 30 caracters">
+                    </p>
+                </div>
+                
+<!-------------------------EMAIL--------------------->
+                <label>
+                    <p>your email : 
+                        <input type="email" name="" id="email" placeholder="max 30 caracters">
+                    </p>
+<!-------------------------AGE--------------------->
+                <label> age : 
+                    <input type="text" name="age"/>
+                </label>
+                <br/>
+<!-------------------------GENDER--------------------->
+                Gender:
+                <input type="radio" name="gender" id="female" value="f" />
+                <label for="female">female </label>
+                <input type="radio" name="gender" id="male" value="m" />
+                <label for="male">male</label>
+                
+                <br />
+                <br />
+<!-------------------------WRITE YOUR TEXT--------------------->
+                </div> 
+                <h3> Please let me understand better if this form act correctly </h3>
+                <textarea class="first-text-area"
+                    name="text-area1" 
+                    id="text-area" 
+                    cols="70" 
+                    rows="15">
+                    
+                </textarea>
+                <br />
+        
+            <br>
+            <hr>
+
+<!-----------------------QUESTIONS PART 1------------------------>
+                <h3> <i> Lets keep going </i></h3>
+                <div class="second-heading">
+                    <p><b>Now select what you think is easier to learn?</b>
+                        <br>
+                    <input type="radio" 
+                        name="framework" 
+                        id="first-radio" 
+                        value="vue" 
+                        checked="checked"/>
+                        Vue
+                    <input type="radio" 
+                        name="framework" 
+                        id="first-radio" 
+                        value="react" />
+                        React
+                    <input type="radio" 
+                        name="framework" 
+                        id="first-radio" 
+                        value="angular" />
+                        Angular
+                    </p>
+                </div>
+                
+                <br />
+                <br />
+
+<!--------------------QUESTION PART 2---------------------->           
+                <div class="third-heading">
+                    <p><b> What programming language do you know?</b>
+                        <br>
+                        <input type="checkbox" name="Language" id="first-checkboxes"
+                            value="html5" />html5
+                        <input type="checkbox" name="language" id="first-checkboxes"
+                            value="css" />Css3
+                        <input type="checkbox" name="language" id="first-checkboxes" 
+                            value="javascript" />Javascript
+                        <input type="checkbox" name="language" id="first-checkboxes" 
+                            value="Java" />Java
+                        <input type="checkbox" name="language" id="first-checkboxes" 
+                            value="c++" />C++
+                        <input type="checkbox" name="language" id="first-checkboxes" 
+                            value="Java" />Java
+                        <input type="checkbox" name="language" id="first-checkboxes" 
+                            value="Processing" />Processing
+                        <input type="checkbox" name="language" id="first-checkboxes" 
+                            value="c#" />C#
+                        <input type="checkbox" name="language" id="first-checkboxes" 
+                            value="python" />Python
+                        <input type="checkbox" name="language" id="first-checkboxes" 
+                        value="sql" />SQL
+                        <input type="checkbox" name="language" id="first-checkboxes" 
+                        value="sql" />Responsive web
+                    </p>
+                
+                </div>
+                <br />
+                <br />
+                <hr />
+<!-------------End Second Line Second Part----------------> 
+                <br />
+                <div class="third-heading">
+                    <p><b> What do you prefer do build with javascript?</b>
+                        <br />
+                        <textarea class="first-text-area"
+                        name="text-area1" 
+                        id="text-area" 
+                        cols="70" 
+                        rows="15">
+                        
+                        </textarea>
+                        <br />
+
+<!-------------- WHAT BROWSER DO YOU USE----------------> 
+
+                <div class="forth-heading">
+                    <h4>What browser do you usualy use?
+                    <select name="" id="">
+                        <option value="google">Google</option>
+                        <option value="brave">Brave</option>
+                        <option value="opera">Opera</option>
+                        <option value="explorer">Explorer</option>
+                        <option value="firefox">Firefox</option>
+                        <option value="safari">Safari</option>
+                    </select>
+                    </h4>
+                </div>
+
+<!-----------------------FIELDSET-------------------------->        
+                <fieldset>
+                    <legend>Digit your contact detail</legend>
+                    <br>
+                    Email : <br>
+                    <input type="text" name="email" id="email"/></label><br />
+                    <label>Mobile : <br />
+                        <input type="text" name="mobile" id="mobile">          
+                    </label>
+                    <br />
+                    <label>Where you live? <br />
+                        <input type="text" name="where" id="where">          
+                    </label>
+                </fieldset>
+                <br />
+                
+<!-----------------------BOtton-------------------------->        
+                
+                
+                <input type="submit" value="SEND THE FORM">
+             </form>
+<!---------------------FOOTER--------------------------->
+            <footer>&copy;Oliver Albergo
+                <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2993.
+                531785216655!2d2.1760915658077833!3d41.38425627926444!2m3!1f0!2
+                f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a2f9395aa707%3A0
+                x35d4903128cf0fb7!2sJaume%20I!5e0!3m2!1sit!2ses!4v1632228844204
+                !5m2!1sit!2ses"
+                width="200"
+                height="100"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy">
+                </iframe>
+            </footer>
+
+        </div> <!--------------------- Wrapper--------------------------->
+    </body>
     
 
 </html>

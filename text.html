@@ -1,209 +1,248 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Text</title>
-    <link rel="shortcut icon" href="/img/favicon (1).ico" type="image/x-icon">
-</head>
-<body>
-    <!-- creation of header with the menu to move between pages-->
-    <header>
-        <div class="logo">
-            <a href="index.html"><img src="/img/html5_icon.png" 
-                width="60px" 
-                height="60px" alt="">
-            </a>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="text.html">Text</a></li>
-                <li><a href="images.html">Images</a></li>
-                <li><a href="links.html">Links</a></li>
-                <li><a href="list.html">List</a></li>
-                <li><a href="tables.html">Tables</a></li>
-                <li><a href="forms.html">Forms</a></li>
-                <li><a href="section.html">Section</a></li>
-                <li><a href="media.html">Media</a></li>
-                <li><a href="meta.html">Meta</a></li>
-            </ul>
-        </nav>
-    </header>
-    <hr />
-<!-- First box containig the the HTML HEADING-->
-    <div class="first-box">
-        <div class="main-title"><h1>HTML HEADING</h1></div>
-        <p>En html hay 6 niveles de encabezado (título), donde el h1 es la introducción 
-            a esta página, y si la página es grande, se puede dividir en subtítulos</p>
-        <p><h1> &lt;h1&gt; This is the Main Heading &lt;/h1&gt;</h1></p>
-        <p><h2> &lt;h2&gt; This is heading level 2 &lt;/h2&gt; </h2></p>
-        <p><h3> &lt;h3&gt; This is heading level 3 &lt;/h3&gt; </h3></p>
-        <p><h4> &lt;h4&gt; This is heading level 4 &lt;/h4&gt; </h4></p>
-        <p><h5> &lt;h5&gt; This is heading level 5 &lt;/h5&gt; </h5></p>
-        <p><h6> &lt;h6&gt; This is heading level 6 &lt;/h6&gt; </h6></p>
-    </div>
-    <hr />
-<!-- Second box containig all HTML paragraphs-->
-    <div class="second-box">
-        <h1 class="main-title">HTML PARAGRAPHS</h1>
-        <div class="box-paragraph">
-            <p>&lt;p&gt;&lt;/p&gt;</p>
-                <div class="texto-box">
-                    <p>La etiqueta p define un párrafo. No es necesario cerrar la 
-                        etiqueta ya que html la interpreta de 
-                        todos modos, pero se recomienda cerrarlat<p> 
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Text</title>
+        <link rel="shortcut icon" href="/img/favicon (1).ico" type="image/x-icon">
+    </head>
+    <body>
+        <div class="wrapper">
+        <!-- creation of header with the menu to move between pages-->
+            <header>
+                <div class="logo">
+                    <a href="index.html"><img 
+                        src="/img/html5_icon.png" 
+                        width="60px" 
+                        height="60px" alt="icon">
+                    </a>
                 </div>
-        </div>
-        <div class="box-paragraph">
-            <p>&lt;hr /&gt;</p>
-            <p>&lt;p&gt;&lt;/p&gt;</p>
-                <div class="texto-box">
-                    <p>Para crear una ruptura entre el tema, como un cambio de
-                         tema o una nueva escena. es un elemento vacío y al igual que los elementos
-                          vacíos, solo tiene una etiqueta. 
-                        A menudo tendra que usar uno espacio seguido por forward slash<p> 
+                <nav role="navigation">
+                    <ul>
+                        <li><a href="text.html">Text</a></li>
+                        <li><a href="images.html">Images</a></li>
+                        <li><a href="links.html">Links</a></li>
+                        <li><a href="list.html">List</a></li>
+                        <li><a href="tables.html">Tables</a></li>
+                        <li><a href="forms.html">Forms</a></li>
+                        <li><a href="section.html">Section</a></li>
+                        <li><a href="media.html">Media</a></li>
+                        <li><a href="meta.html">Meta</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <hr />
+        <!-- First box containig the the HTML HEADING-->
+            <section class="first-box">
+                <div class="main-title">
+                    <h1>HTML HEADING</h1>
                 </div>
-        </div>
-        <div class="box-paragraph">
-            <p>&lt;br /&gt;</p>
-            <div class="texto-box">
-                <p>Esta por Break y nos da un salto de linea<p> 
-            </div>
-        </div>
-        <div class="box-paragraph">
-            <p>&lt;pre&gt;&lt;/pre&gt;</p>
-        </div>
-        <div class="texto-box">
-            <p>Todo lo escrito en el interior mantiene espacios y saltos de línea<p> 
-        </div>
-    </div>
-    <hr />
+                <p>En html hay 6 niveles de encabezado (título), donde el h1 es la introducción 
+                    a esta página, y si la página es grande, se puede dividir en subtítulos</p>
+                <p><h1> &lt;h1&gt; This is the Main Heading &lt;/h1&gt;</h1></p>
+                <p><h2> &lt;h2&gt; This is heading level 2 &lt;/h2&gt; </h2></p>
+                <p><h3> &lt;h3&gt; This is heading level 3 &lt;/h3&gt; </h3></p>
+                <p><h4> &lt;h4&gt; This is heading level 4 &lt;/h4&gt; </h4></p>
+                <p><h5> &lt;h5&gt; This is heading level 5 &lt;/h5&gt; </h5></p>
+                <p><h6> &lt;h6&gt; This is heading level 6 &lt;/h6&gt; </h6></p>
+            </section>
+            <hr />
+        <!-- Second box containig all HTML paragraphs-->
+            <section class="second-box">
+                <h1 class="main-title">HTML PARAGRAPHS</h1>
+                <div class="box-paragraph">
+                    <p>&lt;p&gt;&lt;/p&gt;</p>
+                        <div class="texto-box">
+                            <p>La etiqueta p define un párrafo. No es necesario cerrar la 
+                                etiqueta ya que html la interpreta de 
+                                todos modos, pero se recomienda cerrarlat
+                            </p> 
+                        </div>
+                </div>
+                <div class="box-paragraph">
+                    <p>&lt;hr /&gt;</p>
+                    <p>&lt;p&gt;&lt;/p&gt;</p>
+                        <div class="texto-box">
+                            <p>Para crear una ruptura entre el tema, como un cambio de
+                                tema o una nueva escena. es un elemento vacío y al igual que los elementos
+                                vacíos, solo tiene una etiqueta. 
+                                A menudo tendra que usar uno espacio seguido por forward slash
+                            </p> 
+                        </div>
+                </div>
+                <div class="box-paragraph">
+                    <p>&lt;br /&gt;</p>
+                    <div class="texto-box">
+                        <p>Esta por Break y nos da un salto de linea
+                        </p> 
+                    </div>
+                </div>
+                <div class="box-paragraph">
+                    <p>&lt;pre&gt;&lt;/pre&gt;</p>
+                </div>
+                <div class="texto-box">
+                    <p>Todo lo escrito en el interior mantiene espacios y saltos de línea
 
-    <!-- Third box containig all HTML all the elements and quotations-->
-     <div class="third-box">
-        <h1 class="main-title">COTIZACION Y CITATION</h1>
-            <div class="box-paragraph">
-                <p class="title-box">
-                    &lt;b&gt;<br />&lt;/b&gt;
-                </p>
-                <div class="texto-box">
-                    <p>serrando la etiqueta &lt;/b&gt; 
-                        el texto dentro de 
-                        ella estará en <b>bold</b><p> 
-                </div>
-            </div>
-            <div class="box-paragraph">
-                <p>&lt;i&gt;<br />&lt;/i&gt;</p>
-                <div class="texto-box">
-                    <p>cerrando la etiqueta &lt;/i&gt; el texto dentro de
-                         ella estará en <i> italic</i><p> 
-                </div>
-            </div>
-            <div class="box-paragraph">
-                <p>&lt;em&gt;<br />&lt;/em&gt;</p>
-                <div class="texto-box">
-                    <p>indica énfasis. por defecto, el navegador mostrará 
-                        el contenido de &lt;em&gt; en <i> italic</i><p> 
-                </div>
-            </div>
-            <div class="box-paragraph">
-                <p>&lt;strong&gt;<br />&lt;/strong&gt;</p>
-                <div class="texto-box">
-                    <p>indica una gran importancia o un gran énfasis. de forma predeterminada, 
-                        el navegador mostrará el contenido de &lt;strong&gt; en <b>negrita</b><p> 
-                </div>
-            </div>
-            <div class="box-paragraph">
-                <p>&lt;mark&gt;<br />&lt;/mark&gt;</p>
-                <div class="texto-box">
-                    <p>indica texto que está resaltado<p> 
-                </div>
-            </div>
-            <div class="box-paragraph">
-                <p>&lt;small&gt;<br />&lt;/small&gt;</p>
-                <div class="texto-box">
-                    <p> los elementos se hacen más pequeños<p> 
-                </div>
-            </div>
-            <div class="box-paragraph">
-                <p>&lt;del&gt;<br />&lt;/del&gt;</p>
-                <div class="texto-box">
-                    <p> para borrar un texto con una linea<p> 
-                </div>
-            </div>
-            <div class="box-paragraph">
-                <p>&lt;ins&gt;<br />&lt;/ins&gt;</p>
-                <div class="texto-box">
-                    <p>para subrayar un texto<p> 
-                </div>
-            </div>
-            <div class="box-paragraph">
-                <p>&lt;sup&gt;<br />&lt;/sup&gt;</p>
-                <div class="texto-box">
-                    <p>que una cabeza tiene sufijos en cuanto 
-                        a fechas o conceptos matemáticos<p> 
-                </div>
-            </div>
-            <div class="box-paragraph">
-                <p>&lt;sub&gt;<br />&lt;/sub&gt;</p>
-                <div class="texto-box">
-                    <p>utilizado para contener caracteres de subíndice<p> 
-                </div>
-            </div>
-            <div class="box-paragraph">
-                <p>&lt;abbr&gt;<br />&lt;/abbr&gt;</p>
-                <div class="texto-box">
-                    <p>se usa para revelar la abreviatura o el
-                         acrónimo de la palabra al pasar el mouse  <p> 
-                </div>
-            </div>
-            <div class="box-paragraph">
-                <p>&lt;address&gt;<br />&lt;/address&gt;</p>
-                <div class="texto-box">
-                    <p>de uso específico para contener los datos 
-                        de contacto  del autor de la páginat<p> 
-                </div>
-            </div>
-            <div class="box-paragraph">
-                <p>&lt;bdo&gt;<br />&lt;/bdo&gt;</p>
-                <div class="texto-box">
-                    <p>utilizado para cambiar la dirección del texto
-                    es el acrónimo  de Bi-Directional Override<p> 
-                </div>
-            </div>
-            <div class="box-paragraph">
-                <p>&lt;blockquote&gt;<br />&lt;/blockquote&gt;</p>
-                <div class="texto-box">
-                    <p>utilizado para cotizaciones. la etiqueta <p> debe estar incluida en ella<p> 
-                </div>
-            </div>
-            <div class="box-paragraph">
-                <p>&lt;cite&gt;<br />&lt;/cite&gt;</p>
-                <div class="texto-box">
-                    <p>cuando se refiere a una obra como un libro, una película 
-                        o un artículo de investigación. se presentará en cursiva
-                    <p> 
-                </div>
-            </div>
-            <div class="box-paragraph">
-                <p>&lt;s&gt;<br />&lt;/s&gt;</p>
-                <div class="texto-box">
-                    <p>indica algo que ya no es relevante pero que no queremos
-                        eliminar. se mostrará mostrando una línea que atraviesa la palabra
-                    <p> 
-                </div>
-            </div>
-            <div class="box-paragraph">
-                <p>&lt;q&gt;<br />&lt;/q&gt;</p>
-                <div class="texto-box">
-                    <p> utilizado para pequeñas cotizaciones
                     </p>
                 </div>
-            </div>
-        </p>
-    </div>
+            </section>
+            <hr />
 
+            <!-- Third box containig all HTML all the elements and quotations-->
+            <section class="third-box">
+                <h1 class="main-title">COTIZACION Y CITATION</h1>
+                    <div class="box-paragraph">
+                        <p class="title-box">
+                            &lt;b&gt;<br />&lt;/b&gt;
+                        </p>
+                        <div class="texto-box">
+                            <p>serrando la etiqueta &lt;/b&gt; 
+                                el texto dentro de 
+                                ella estará en <b>bold</b>
+                            </p> 
+                        </div>
+                    </div>
+                    <div class="box-paragraph">
+                        <p>&lt;i&gt;<br />&lt;/i&gt;</p>
+                        <div class="texto-box">
+                            <p>cerrando la etiqueta &lt;/i&gt; el texto dentro de
+                                ella estará en <i> italic</i>
+                            </p> 
+                        </div>
+                    </div>
+                    <div class="box-paragraph">
+                        <p>&lt;em&gt;<br />&lt;/em&gt;</p>
+                        <div class="texto-box">
+                            <p>indica énfasis. por defecto, el navegador mostrará 
+                                el contenido de &lt;em&gt; en <i> italic</i>
+                            </p> 
+                        </div>
+                    </div>
+                    <div class="box-paragraph">
+                        <p>&lt;strong&gt;<br />&lt;/strong&gt;</p>
+                        <div class="texto-box">
+                            <p>indica una gran importancia o un gran énfasis. de forma predeterminada, 
+                                el navegador mostrará el contenido de &lt;strong&gt; en <b>negrita</b>
+                            </p> 
+                        </div>
+                    </div>
+                    <div class="box-paragraph">
+                        <p>&lt;mark&gt;<br />&lt;/mark&gt;</p>
+                        <div class="texto-box">
+                            <p>indica texto que está resaltado
+                            </p> 
+                        </div>
+                    </div>
+                    <div class="box-paragraph">
+                        <p>&lt;small&gt;<br />&lt;/small&gt;</p>
+                        <div class="texto-box">
+                            <p> los elementos se hacen más pequeños
+                            </p> 
+                        </div>
+                    </div>
+                    <div class="box-paragraph">
+                        <p>&lt;del&gt;<br />&lt;/del&gt;</p>
+                        <div class="texto-box">
+                            <p> para borrar un texto con una linea
+                            </p> 
+                        </div>
+                    </div>
+                    <div class="box-paragraph">
+                        <p>&lt;ins&gt;<br />&lt;/ins&gt;</p>
+                        <div class="texto-box">
+                            <p>para subrayar un texto
+                            </p> 
+                        </div>
+                    </div>
+                    <div class="box-paragraph">
+                        <p>&lt;sup&gt;<br />&lt;/sup&gt;</p>
+                        <div class="texto-box">
+                            <p>que una cabeza tiene sufijos en cuanto 
+                                a fechas o conceptos matemáticos
+                            </p> 
+                        </div>
+                    </div>
+                    <div class="box-paragraph">
+                        <p>&lt;sub&gt;<br />&lt;/sub&gt;</p>
+                        <div class="texto-box">
+                            <p>utilizado para contener caracteres de subíndice
+                            </p> 
+                        </div>
+                    </div>
+                    <div class="box-paragraph">
+                        <p>&lt;abbr&gt;<br />&lt;/abbr&gt;</p>
+                        <div class="texto-box">
+                            <p>se usa para revelar la abreviatura o el
+                            acrónimo de la palabra al pasar el mouse  
+                            </p> 
+                        </div>
+                    </div>
+                    <div class="box-paragraph">
+                        <p>&lt;address&gt;<br />&lt;/address&gt;</p>
+                        <div class="texto-box">
+                            <p>de uso específico para contener los datos 
+                                de contacto  del autor de la páginat
+                            </p> 
+                        </div>
+                    </div>
+                    <div class="box-paragraph">
+                        <p>&lt;bdo&gt;<br />&lt;/bdo&gt;</p>
+                        <div class="texto-box">
+                            <p>utilizado para cambiar la dirección del texto
+                            es el acrónimo  de Bi-Directional Override
+                            </p> 
+                        </div>
+                    </div>
+                    <div class="box-paragraph">
+                        <p>&lt;blockquote&gt;<br />&lt;/blockquote&gt;</p>
+                        <div class="texto-box">
+                            <p>utilizado para cotizaciones. la etiqueta &lt;p&gt; debe estar incluida en ella
+                            </p> 
+                        </div>
+                    </div>
+                    <div class="box-paragraph">
+                        <p>&lt;cite&gt;<br />&lt;/cite&gt;</p>
+                        <div class="texto-box">
+                            <p>cuando se refiere a una obra como un libro, una película 
+                                o un artículo de investigación. se presentará en cursiva
+                            </p> 
+                        </div>
+                    </div>
+                    <div class="box-paragraph">
+                        <p>&lt;s&gt;<br />&lt;/s&gt;</p>
+                        <div class="texto-box">
+                            <p>indica algo que ya no es relevante pero que no queremos
+                                eliminar. se mostrará mostrando una línea que atraviesa la palabra
+                            </p> 
+                        </div>
+                    </div>
+                    <div class="box-paragraph">
+                        <p>&lt;q&gt;<br />&lt;/q&gt;</p>
+                        <div class="texto-box">
+                            <p> utilizado para pequeñas cotizaciones
+                            </p>
+                        </div>
+                    </div>
+                </p>
+            </section>
+<!---------------------FOOTER--------------------------->            
+            <footer>
+                &copy;Oliver Albergo
+                <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2993.
+                531785216655!2d2.1760915658077833!3d41.38425627926444!2m3!1f0!2f0
+                !3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a2f9395aa707%3A0x35d
+                4903128cf0fb7!2sJaume%20I!5e0!3m2!1sit!2ses!4v1632228844204!5m2!1sit!2ses"
+                width="200"
+                height="100"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy">
+                </iframe>
+            </footer>
 
-</body>
+        </div><!--------------------- Wrapper--------------------------->
+        
+    </body>
 </html>
